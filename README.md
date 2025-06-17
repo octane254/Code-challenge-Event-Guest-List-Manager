@@ -1,7 +1,8 @@
-🎉 Event Guest List Manager
+### 🎉 Event Guest List Manager
+
 A simple, interactive web app to manage an event guest list using JavaScript, HTML, and CSS. This project helps you learn how to capture form input, dynamically update the DOM, and build a user friendly UI without page reloads.
 
-🧠 Learning Goals
+### 🧠 Learning Goals
 Build a functioning guest list application
 
 Suppress default form behavior using event.preventDefault()
@@ -10,7 +11,7 @@ Manipulate the DOM with JavaScript
 
 Practice event handling and user interaction
 
-📋 Introduction
+### 📋 Introduction
 This project is a code challenge focused on DOM manipulation. You'll build an Event Guest List Manager that lets users:
 
 Add guests to a list
@@ -23,7 +24,7 @@ And more!
 
 All interaction is handled dynamically — no page refresh required.
 
-📁 Project Structure
+### 📁 Project Structure
 bash
 Copy
 Edit
@@ -33,7 +34,7 @@ guest-list-manager/
 └── src/
     └── index.js      # JavaScript logic
     
-✅ Deliverables
+### ✅ Deliverables
 As a user, you should be able to:
 
 ✅ Type a guest's name into the input field.
@@ -48,7 +49,7 @@ As a user, you should be able to:
 
 ✅ Toggle each guest’s RSVP status: Attending or Not Attending.
 
-✨ Stretch Features (Optional)
+### ✨ Stretch Features (Optional)
 Take your app to the next level by adding:
 
 🎨 Guest categories: Label guests as Friend, Family, or Colleague using color-coded tags.
@@ -59,14 +60,14 @@ Take your app to the next level by adding:
 
 💡 Your own feature: Get creative and add something unique!
 
-🚀 How to Use
+### 🚀 How to Use
 Clone the repo or download the files.
 
 Open index.html in your browser.
 
 Start typing guest names and managing your list!
 
-💡 Tips
+### 💡 Tips
 Use event.preventDefault() to stop form submissions from reloading the page.
 
 Use document.querySelector or getElementById to target elements.
@@ -75,6 +76,6 @@ Manipulate the DOM using appendChild, innerText, and other methods.
 
 Attach event listeners to dynamically added elements.
 
-🧑‍💻 Author
+### 🧑‍💻 Author
 Made with 💛 for practice and learning.
 
