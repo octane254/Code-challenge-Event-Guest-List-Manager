@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Event Guest List Manager</title>
-  <script src="index.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,14 +12,23 @@
         <form id="guest-form">
             <input type="text" id="guest-name" placeholder="Enter guest name">
             <select id="guest-category">
-              <option value="friend" class="ally">friend</option>
-                <option value="family" class="Bloodline">family</option>
-                <option value="colleague" class="Workmates">colleague</option>
+                <option value="friend" class="ally">Friend</option>
+                <option value="family" class="bloodline">Family</option>
+                <option value="colleague" class="workmates">Colleague</option>
             </select>
             <button type="submit">Add Guest</button>
         </form>
-        <ul id="guest-list"></ul>
+
+         <ul id="guest-list">
+          <li class="guest-item">
+  <span class="guest-name"></span>
+  <span class="timestamp">Added at: 3:42 PM</span>
+  <button class="toggle-rsvp">Attending</button>
+  <button class="remove-guest">Remove</button>
+</li>
+    </ul>
         <button id="clear-list">Clear List</button>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
